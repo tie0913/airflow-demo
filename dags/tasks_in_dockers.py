@@ -5,7 +5,7 @@ from airflow.providers.docker.operators.docker import DockerOperator
 
 
 with DAG(
-    dag_id="demo_training_pipeline",
+    dag_id="tasks_in_dockers",
     start_date=datetime(2026, 1, 1),
     schedule=None,
     catchup=False,
